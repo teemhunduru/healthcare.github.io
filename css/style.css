@@ -927,9 +927,9 @@
 			}
 
 				#header nav > ul > li {
-					border-radius: 6px;
+					border-radius: 8px;
 					display: inline-block;
-					margin-left: 2em;
+					margin-left: 4em;
 					padding-left: 0;
 				}
 
@@ -953,8 +953,8 @@
 					}
 
 					#header nav > ul > li .button {
-						height: 4.25em;
-						line-height: 4.25em;
+						height: 6.25em;
+						line-height: 6.25em;
 						margin-bottom: 0;
 						padding: 0 1em;
 						position: relative;
