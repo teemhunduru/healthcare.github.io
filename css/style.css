@@ -484,6 +484,13 @@
 				display: block;
 				width: 100%;
 			}
+			
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
 
 /* List */
 
@@ -953,8 +960,8 @@
 					}
 
 					#header nav > ul > li .button {
-						height: 6.25em;
-						line-height: 6.25em;
+						height: 12.25em;
+						line-height: 12.25em;
 						margin-bottom: 0;
 						padding: 0 1em;
 						position: relative;
@@ -1085,3 +1092,4 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+		

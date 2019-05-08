@@ -61,17 +61,17 @@
 
 		#navButton .toggle:before {
 			background: rgba(144, 149, 154, 0.75);
-			border-radius: 6px;
-			color: #fff;
+			border-radius: 12px;
+			color: purple;
 			display: block;
 			font-size: 17px;
-			height: 2em;
+			height: 4em;
 			left: 0.5em;
-			line-height: 2em;
+			line-height: 4em;
 			position: absolute;
 			text-align: center;
 			top: 0.5em;
-			width: 3.5em;
+			width: 5em;
 		}
 
 	#navPanel {
