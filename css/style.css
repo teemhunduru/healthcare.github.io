@@ -892,7 +892,7 @@
 		background: #fff;
 		color: #555f66;
 		cursor: default;
-		height: 3em;
+		height: 3.5em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -920,7 +920,7 @@
 
 		#header nav {
 			height: inherit;
-			line-height: inherit;
+			line-height: unset;
 			position: absolute;
 			right: 1.25em;
 			top: 0;
