@@ -41,11 +41,13 @@
 			
 			<script>
 				function myFunction() {
+				
 				  var x = document.getElementById("login");
 				  if (x.style.display == "block") {
 					x.style.display = "none";
 				  } else {
 					x.style.display = "block";
+					document.getElementById('login').click();
 				  }
 				}
 			</script>
