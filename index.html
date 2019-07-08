@@ -104,7 +104,7 @@
 								<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Information on 24 hour care</button>
 
 								<!-- Modal -->
-								<div href="#" id="myModal" class="modal fade" role="dialog">
+								<div id="myModal" class="modal fade" role="dialog" style="color:green">
 								  <div class="modal-dialog">
 
 									<!-- Modal content-->
@@ -121,7 +121,7 @@
 										<p>Costs will then be discussed once assessments have been done as we would need to find the best price for your care package.</p>
 									  </div>
 									  <div class="modal-footer">
-										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 									  </div>
 									</div>
 
@@ -135,10 +135,19 @@
 								<h3>Mental Health-care</h3>
 								<p>We seek to help individuals with a learning disability live as full a life as possible.</p>
 								
-								<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Find out about mental health</button>
+								<style>
+									.modal-dialog {
+									  position: absolute;
+									  top: 50%;
+									  left: 50%;
+									  transform: translate(-50%, -50%) !important;
+									}
+								</style>
+								
+								<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Find out about mental health</button>
 
 								<!-- Modal -->
-								<div href="#" id="myModal2" class="modal fade" role="dialog">
+								<div id="myModal1" class="modal fade" role="dialog" style="color:green">
 								  <div class="modal-dialog">
 
 									<!-- Modal content-->
@@ -154,7 +163,7 @@
 										<p>Because of the different needs of clients', care costs can be discussed once assessments have been done as we would need to find the best price for your care package.</p>
 									  </div>
 									  <div class="modal-footer">
-										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 									  </div>
 									</div>
 
@@ -169,10 +178,10 @@
 								<h3>Supported Living</h3></br>
 								<p>We can help if can help if you don't want to live in residential care but you're finding it difficult to cope at home.</p></br>
 							
-								<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">More on supported living</button>
+								<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">More on supported living</button>
 
 								<!-- Modal -->
-								<div href="#" id="myModal3" class="modal fade" role="dialog">
+								<div id="myModal2" class="modal fade" role="dialog" style="color:green">
 								  <div class="modal-dialog">
 
 									<!-- Modal content-->
@@ -188,7 +197,7 @@
 										<p>The cost of this package will depend on the level of care that you require us to provide and also varies geographically.</p>
 									  </div>
 									  <div class="modal-footer">
-										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 									  </div>
 									</div>
 
@@ -224,7 +233,7 @@
 								<h3>Healthcare Links</h3>
 								<ul class="alt">
 									<li><a href="#">https://www.nhs.uk/using-the-nhs/nhs-services/mental-health-services</a></li>
-									<li><a href="#">http://www.hse.gov.uk/legislation/</a></li>
+									<li><a href="#">https://www.hse.gov.uk/legislation/</a></li>
 									<li><a href="#">https://www.mencap.org.uk/</a></li>
 									<li><a href="#">https://advicelocal.uk/disability-social-care</a></li>
 									<li><a href="#">https://www.cqc.org.uk/</a></li>
@@ -235,10 +244,7 @@
 				</div>
 			</section>		
 
-		<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
-		
 
-			
 		<!-- Footer -->
 			<footer id="footer" style="background-color:#D8BFD8">
 				<div class="container">
